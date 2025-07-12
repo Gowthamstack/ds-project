@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">Ds-InterConnect</h1>
+      <h1 className="logo">Ds-InterConnect 1234</h1>
 
       <div className="nav-links">
         <NavLink to="/">Home</NavLink>
