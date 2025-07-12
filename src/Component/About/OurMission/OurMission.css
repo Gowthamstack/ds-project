@@ -6,7 +6,7 @@
     flex-direction: column;
     height: 80vh;
     border-radius: 20px;
-    background-image: url("./AboutImg.jpg");
+    background-image: url("/AboutImg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
