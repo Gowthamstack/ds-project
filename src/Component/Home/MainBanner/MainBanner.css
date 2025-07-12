@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url("./backgroundpic1.png");
+  /*background-image: url("./backgroundpic1.png");*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -4,9 +4,10 @@ import "./MainBanner.css";
 const MainBanner = () => {
   return (
     <div className="MainBanner">
-      <h1>Innovation Tomorrow's Technology Today</h1>
+     {/* <h1>Innovation Tomorrow's Technology Today</h1>
       <h2>Experts in PCB Desinging,Embedded System And Project Development</h2>
-      <button>Explore</button>
+      <button>Explore</button> */}
+      <img src="./backgroundpic1.png" alt="" />
     </div>
   );
 };
