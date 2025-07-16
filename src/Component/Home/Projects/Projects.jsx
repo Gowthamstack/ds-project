@@ -18,7 +18,7 @@ const Category = () => {
         <h3>Building Skills</h3>
         <ul>
           <li>IOT</li>
-          <li>Trone</li>
+          <li>Drone</li>
           <li>Embedded</li>
           <li>PCB</li>
           <li>Telemetry</li>
