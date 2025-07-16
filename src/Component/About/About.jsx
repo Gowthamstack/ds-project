@@ -5,7 +5,7 @@ import "./About.css"
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" onScroll={scrollTo(0,0)}>
       <OurMission/>
       <Offer/>
     </div>

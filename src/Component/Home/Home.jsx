@@ -6,7 +6,7 @@ import Projects from "./Projects/Projects";
 
 const Home = () => {
   return (
-    <div className="entire-home">
+    <div className="entire-home" onScroll={scrollTo(0,0)}>
       <MainBanner />
       <OurCourses />
       <Projects />
