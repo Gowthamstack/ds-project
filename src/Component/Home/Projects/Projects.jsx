@@ -24,7 +24,7 @@ const Category = () => {
           <li>Telemetry</li>
         </ul>
         <div className="features">
-          Currently IOT Projects are More Enhanced Version
+          Currently IOT Projects are Mo re Enhanced Version
         </div>
         <div className="project-deliver">
           From Scratch to create a entire project for College Student

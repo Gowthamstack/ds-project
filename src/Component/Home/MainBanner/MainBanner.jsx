@@ -1,12 +1,17 @@
 import React from "react";
 import "./MainBanner.css";
+import Typewriter from "typewriter-effect";
 
 const MainBanner = () => {
   return (
     <div className="MainBanner">
-     <h1>Innovation Tomorrow's Technology Today</h1>
-      <h2>Experts in PCB Desinging,Embedded System And Project Development</h2>
-      <button>Explore</button> 
+      <h1>Welcome to Our Website</h1>
+      <p>Explore our services and offerings.</p>
+      <div className="typewriter-effect">
+        <p>What we offer:</p>
+         <Typewriter options={{ strings: ["Drone Assembly.", "PCB Designing.", "Telemetry.","Embeded System Testing."], autoStart: true, loop: true }} />
+      </div>
+      <button className="main-banner-button">Explore</button>
     </div>
   );
 };

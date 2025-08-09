@@ -20,9 +20,6 @@ const Navbar = () => {
         <NavLink to="/About">About</NavLink>
         <NavLink to="/Service">Service</NavLink>
         <NavLink to="/faq">Faq</NavLink>
-        <NavLink to="/Contact">
-        <button className="course-btn">Contact Us</button>
-      </NavLink>
       </div>
 
       <div className="menu-icon">
