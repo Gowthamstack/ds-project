@@ -8,10 +8,16 @@
   top: 0;
   color:#fff;
   z-index: 10;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 2rem 0px;
+  padding: 10%;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.navbar.scrolled {
+  background-color: blue;
+  transition: background-color 0.3s ease-in-out;
+}
+
 .logo {
   font-size: 40px;
   font-weight: bold;

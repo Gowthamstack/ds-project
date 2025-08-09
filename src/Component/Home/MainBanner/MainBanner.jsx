@@ -7,8 +7,8 @@ const MainBanner = () => {
     <div className="MainBanner">
       <h1>Welcome to Our Website</h1>
       <p>Explore our services and offerings.</p>
+       <p>What we offer:</p>
       <div className="typewriter-effect">
-        <p>What we offer:</p>
          <Typewriter options={{ strings: ["Drone Assembly.", "PCB Designing.", "Telemetry.","Embeded System Testing."], autoStart: true, loop: true }} />
       </div>
       <button className="main-banner-button">Explore</button>

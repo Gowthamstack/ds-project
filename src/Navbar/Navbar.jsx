@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef,useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { assests } from "../assets/assests.js";
 import "./Navbar.css";
@@ -6,13 +6,29 @@ import "./Navbar.css";
 const Navbar = () => {
   const ref = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled,setScrolled]=useState(false);
 
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <h1 className="logo">Ds-InterConnect</h1>
 
       <div className="nav-links">
