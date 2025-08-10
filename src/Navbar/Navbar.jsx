@@ -58,20 +58,19 @@ const Navbar = () => {
           />
         </div>
         <NavLink to="/" onClick={handleMenu}>
-        <button className="course-btn">Home</button>
+        Home
         </NavLink>
-
         <NavLink to="/About" onClick={handleMenu}>
-        <button className="course-btn">About</button>
+        About
         </NavLink>
         <NavLink to="/Service" onClick={handleMenu}>
-        <button className="course-btn">Service</button>
+        Service
         </NavLink>
         <NavLink to="/faq" onClick={handleMenu}>
-        <button className="course-btn">Faq</button>
+        Faq
         </NavLink>
         <NavLink to='/Contact' onClick={handleMenu}>
-        <button className="course-btn">Contact Us</button> 
+        Contact Us
         </NavLink>
       </div>
     </nav>
