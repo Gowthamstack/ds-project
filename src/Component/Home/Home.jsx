@@ -11,6 +11,7 @@ const Home = () => {
       <MainBanner />
       <OurCourses />
       <OurLatest/>
+      <Testimonials/>
     </div>
   );
 };

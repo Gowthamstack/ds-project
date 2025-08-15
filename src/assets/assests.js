@@ -12,6 +12,7 @@ import Seminar from "./Seminar.jpg";
 import Webinar from "./Webinar.jpg";
 import address from "./address.png";
 import drone_video from "./drone_video.mp4"
+import profile_icon from "./profile_icon.png";
 
 
 
@@ -24,7 +25,8 @@ export const assests = {
   PCB,
   Telemtry,
   address,
-  drone_video
+  drone_video,
+  profile_icon
 };
 
 export const courses = [
@@ -57,6 +59,52 @@ export const courses = [
     language: "English",
   },
 ];
+
+
+export const testimonial=[
+  {
+    id:1,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:2,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:3,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:4,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:5,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:6,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  },
+  {
+    id:7,
+    img:profile_icon,
+    role:"developer",
+    description:"Build Cool Projects"
+  }
+]
 
 
 export const offer=[

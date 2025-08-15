@@ -10,9 +10,10 @@ const OurLatest = () => {
         </div>
         <div className='drone-content'>
             <h1 className='drone-title'>Experience the Future of Aerial Views</h1>
-            <p className='drone-subtitle'>Cutting-edge drone technology for breathtaking photograpy,videography, and surveying</p>
+            <p className='drone-subtitle'>Cutting-edge drone technology for breathtaking photograpy,videography, and surveying.</p>
+            <button className='drone-btn'>Explore More</button>
         </div>
-        <button className='drone-btn'>Explore More</button>
+        
     </div>
   )
 }

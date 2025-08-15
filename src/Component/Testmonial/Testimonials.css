@@ -1,0 +1,30 @@
+.testimonials{
+    padding: 2% 5%;
+    color:#fff;
+
+}
+.testimonials h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.testimonials .testimonials-content{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    justify-content:space-between;
+}
+.testimonials .testimonials-content .profiles{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    gap:4px;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid #fff;
+    padding:8px 2px;
+    border-radius:0px 20px 0px 0px;
+    background: radial-gradient(circle at top right, #00cbff 50%,#001f3f 50%);
+}
+
