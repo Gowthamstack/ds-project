@@ -13,6 +13,7 @@ import Webinar from "./Webinar.jpg";
 import address from "./address.png";
 import drone_video from "./drone_video.mp4"
 import profile_icon from "./profile_icon.png";
+import menu_icon_white from "./menu_icon_white.png"
 
 
 
@@ -26,7 +27,8 @@ export const assests = {
   Telemtry,
   address,
   drone_video,
-  profile_icon
+  profile_icon,
+  menu_icon_white
 };
 
 export const courses = [

@@ -8,7 +8,7 @@
   top: 0;
   color:#fff;
   z-index: 10;
-  padding: 2% 5%;
+  padding: 3% 5%;
   background-color: transparent;
   transition: background-color 0.3s ease-in-out;
 }
@@ -60,9 +60,8 @@
   display: none;
   cursor: pointer;
 }
-
-.menu-img {
-  width: 30px;
+.menu-icon .menu-img {
+  width: 40px;
   height: 20px;
 }
 

@@ -40,7 +40,7 @@ const Navbar = () => {
 
       <div className="menu-icon">
         <img
-          src={assests.menu_icon}
+          src={assests.menu_icon_white}
           alt="Menu_icon"
           className="menu-img"
           onClick={handleMenu}
