@@ -8,28 +8,30 @@ const Category = () => {
       <h1>Final Year Projects For Students</h1>
        <div className="project-content">
         <div className="project-img">
-        <img src={assests.Project} alt="ProjectImage"  />
+          <div className="project-img-top">
+            <img src={assests.Project} alt="ProjectImage"/>
+            <img src={assests.Project} alt="ProjectImage"/>
+          </div>
+          <div className="project-img-center">
+            <img src={assests.Project} alt="ProjectImage"/>
+          </div>
+          <div className="project-img-bottom">
+            <img src={assests.Project} alt="ProjectImage"/>
+            <img src={assests.Project} alt="ProjectImage"/>
+          </div>
         </div>
         <div className="description">
-        <h2 className="content">
-          Hands On Projects
-        </h2>   
-        <h2>Fully Embedded Projects</h2>
-        <h3>Building Skills</h3>
-        <ul>
-          <li>IOT</li>
-          <li>Drone</li>
-          <li>Embedded</li>
-          <li>PCB</li>
-          <li>Telemetry</li>
-        </ul>
-        <div className="features">
-          Currently IOT Projects are Mo re Enhanced Version
-        </div>
-        <div className="project-deliver">
-          From Scratch to create a entire project for College Student
-        </div>
-        </div>
+          <h1>Our Projects</h1>
+          <div className="description-content">We Craft innovative Solutions In Electronics,Drones,And Embedded System</div>
+          <ul>
+            <li><b>PCB Design:</b>High-Performance,Reliable Curcuit Board</li>
+            <li><b>Drone Assembly:</b>Custom-built Drones For Driverse Missions</li>
+            <li><b>Embedded Testing:</b>Real-time data systems for areospace,IOT,and more...</li>
+            <li><b>Student Projects:</b>Industry-grade final year project Guidence</li>
+          </ul>
+          <div>From Concept to Creation,we bring ideas to life</div>
+       </div>
+
        </div>
     </div>
   );

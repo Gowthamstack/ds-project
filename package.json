@@ -10,11 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "aos": "^2.3.4",
     "motion": "^12.23.6",
+    "ogl": "^1.0.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",
-    "typewriter-effect": "^2.22.0"
+    "tailwindcss": "^4.1.12",
+    "three": "^0.179.1",
+    "typewriter-effect": "^2.22.0",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

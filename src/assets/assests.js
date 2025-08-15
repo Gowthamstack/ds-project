@@ -10,6 +10,8 @@ import InterShip from "./InterShip.jpg";
 import MiniProject from "./MiniProject.jpg";
 import Seminar from "./Seminar.jpg";
 import Webinar from "./Webinar.jpg";
+import address from "./address.png";
+import drone_video from "./drone_video.mp4"
 
 
 
@@ -20,7 +22,9 @@ export const assests = {
   cross_icon,
   Project,
   PCB,
-  Telemtry
+  Telemtry,
+  address,
+  drone_video
 };
 
 export const courses = [

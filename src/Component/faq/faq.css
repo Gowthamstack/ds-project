@@ -3,11 +3,13 @@ body{
     width: 100%;
 }.entire-faq{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:#fff;
+
 }
 .entire-faq .quesvalue{
     width: 90%;
@@ -16,21 +18,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px 0px;
     box-shadow:5px 0px 5px rgba(0,0,0,0.3);
+    transition:all 0.5s linear;
 }
-.answerval{
+.quesvalue .answerval{
     display: none;
     height: auto;
-    width: auto;
-    
+    width: auto;  
 }
 h2{
     width: 100%;
-    text-align: center;
-    
+    color: #fff;   
 }
 h2 button{
     border: none;
+    color: #fff;
     background-color: transparent;
     
 }

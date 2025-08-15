@@ -35,7 +35,7 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/About">About</NavLink>
         <NavLink to="/Service">Service</NavLink>
-        <NavLink to="/faq">Faq</NavLink>
+        <NavLink to='/Contac'>Contact Us</NavLink>
       </div>
 
       <div className="menu-icon">
@@ -60,16 +60,13 @@ const Navbar = () => {
         <NavLink to="/" onClick={handleMenu}>
         Home
         </NavLink>
-        <NavLink to="/About" onClick={handleMenu}>
-        About
+        <NavLink to="/Course" onClick={handleMenu}>
+        Course
         </NavLink>
         <NavLink to="/Service" onClick={handleMenu}>
         Service
         </NavLink>
-        <NavLink to="/faq" onClick={handleMenu}>
-        Faq
-        </NavLink>
-        <NavLink to='/Contact' onClick={handleMenu}>
+        <NavLink to='/Contact Us' onClick={handleMenu}>
         Contact Us
         </NavLink>
       </div>

@@ -1,16 +1,41 @@
-.Footer {
-  width: 100%;
-  background: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-  color: #000;
-  padding: 30px 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
-.Footer ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 1rem;
+    background: linear-gradient(to bottom, #5524B7, #380B60);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.footer-icon {
+    transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+    transform: translateY(-2px);
 }
