@@ -5,15 +5,60 @@
     align-items: center;
     justify-content: space-evenly;
     color:#fff;
+    position: relative;
 }
 .contact .address-img img{
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
+    position: relative;
+    animation:moveUpDown 2s ease-in-out infinite;
+
 }
+@keyframes moveUpDown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+}
+
 .contact .address{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.contact .address .mail{
+    display: flex;
+    gap:10px;
+    align-items: end;
+}
+
+.contact .address .mail .mail_icon{
+    width:40px;
+    height:40px;
+}
+.contact .address .mail h3{
+    margin-bottom:5px;
+}
+
+
+@media (max-width:460px){
+    .contact{
+        flex-direction: column-reverse;
+        gap:2px;
+    }
+    .contact .address-img img{
+        width:150px;
+        height:150px;
+    }
+    .contact .address h2,h3{
+        font-size: 16px;
+    }
 }

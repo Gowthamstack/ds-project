@@ -1,11 +1,14 @@
 
 .offer{
+    margin-top:  100px;
     display: flex;
     flex-direction:column ;
 
 }
 .offer h1{
     margin-bottom: 40px;
+    color:#fff;
+    text-align:center;
 }
 .what-we{
     display: flex;

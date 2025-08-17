@@ -1,5 +1,5 @@
 import React, { useState, useRef,useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { assests } from "../assets/assests.js";
 import "./Navbar.css";
 
@@ -33,9 +33,9 @@ const Navbar = () => {
 
       <div className="nav-links">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/Course">Courses</NavLink>
-        <NavLink to="/Service">Service</NavLink>
-        <NavLink to='/Contac'>Contact Us</NavLink>
+        <NavLink to="/course">Courses</NavLink>
+        <NavLink to="/service">Service</NavLink>
+        <NavLink to='/contact'>Contact Us</NavLink>
       </div>
 
       <div className="menu-icon">

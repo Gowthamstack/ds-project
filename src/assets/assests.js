@@ -14,7 +14,8 @@ import address from "./address.png";
 import drone_video from "./drone_video.mp4"
 import profile_icon from "./profile_icon.png";
 import menu_icon_white from "./menu_icon_white.png"
-
+import location from "./location_icon.png";
+import mail_icon from "./mail_icon.png";
 
 
 export const assests = {
@@ -28,7 +29,9 @@ export const assests = {
   address,
   drone_video,
   profile_icon,
-  menu_icon_white
+  menu_icon_white,
+  location,
+  mail_icon
 };
 
 export const courses = [

@@ -5,7 +5,7 @@ import "./Offer.css"
 const Offer = () => {
   return (
     <div className='offer'>
-      <h1>What We Offer</h1>
+      <h1>Our Courses</h1>
      <div className="what-we">
         {offer.map((offer,index)=>(
         <div className={`offers ${offer.align}`} key={offer.id}>

@@ -2,13 +2,13 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Component/Home/Home";
-import About from "./Component/About/About";
 import Service from "./Component/Service/Service";
 import Footer from "./Component/Footer/Footer";
 import Faq from "./Component/faq/faq";
 import Contact from "./Component/ContactUs/Contact";
 import { useEffect } from "react";
 import AOS from "aos";
+import About from "./Component/About/About";
 
 
 function App() {
@@ -25,10 +25,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact/>} />
-        <Route path="/Service" element={<About />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path='/course' element={<About/>}/>
+        <Route path="/service" element={<Service />} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes> 
       {/* <Footer/> */}
     </div>
