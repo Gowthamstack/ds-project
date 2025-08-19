@@ -1,0 +1,32 @@
+.course{
+    width:100%;
+    color: #fff;
+    font-weight: bold;
+}
+.course .all_course{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+}
+.course .all_course .offer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:10px;
+    width: 280px;
+    height:340px;
+    border:1px solid #fff;
+    border-radius: 0px 20px 0px 0px;
+    background: radial-gradient(circle at top right ,#fff 30%,#000 70%);
+    /* background: radial-gradient(circle at top right, #00cbff 50%,#001f3f 50%); */
+    box-shadow: 0px 0px 0px 2px #fff;
+}
+.course .all_course .offer img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    border-radius: 0px 20px 0px 0px;
+}

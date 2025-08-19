@@ -60,13 +60,13 @@ const Navbar = () => {
         <NavLink to="/" onClick={handleMenu}>
         Home
         </NavLink>
-        <NavLink to="/Course" onClick={handleMenu}>
+        <NavLink to="/course" onClick={handleMenu}>
         Course
         </NavLink>
-        <NavLink to="/Service" onClick={handleMenu}>
+        <NavLink to="/service" onClick={handleMenu}>
         Service
         </NavLink>
-        <NavLink to='/Contact Us' onClick={handleMenu}>
+        <NavLink to='/contact' onClick={handleMenu}>
         Contact Us
         </NavLink>
       </div>

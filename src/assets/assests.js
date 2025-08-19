@@ -1,4 +1,4 @@
-import Trone from "./Trone1.jpg";
+import drone from "./Trone1.jpg";
 import Ics from "./backgroundpic.jpg";
 import menu_icon from "./menu_icon.png";
 import cross_icon from "./cross_icon.png";
@@ -19,7 +19,7 @@ import mail_icon from "./mail_icon.png";
 
 
 export const assests = {
-  Trone,
+  drone,
   Ics,
   menu_icon,
   cross_icon,
@@ -34,10 +34,11 @@ export const assests = {
   mail_icon
 };
 
+//home
 export const courses = [
   {
     id: self.crypto.randomUUID(),
-    img: Trone,
+    img: drone,
     name: "Drone Assemble",
     level: "Beginner to Advance",
     language: "English",
@@ -62,10 +63,10 @@ export const courses = [
     name: "Embeded System Testing",
     level: "Beginner to Advance",
     language: "English",
-  },
+  }
 ];
 
-
+//home
 export const testimonial=[
   {
     id:1,
@@ -116,32 +117,60 @@ export const offer=[
   {
     id:self.crypto.randomUUID(),
     img:InterShip,
-    descrption:"InterShip for College Students",
+    description:"InternShip for College Students",
     align:"left",
   },
   {
     id:self.crypto.randomUUID(),
     img:Seminar,
-    descrption:"Workshop in School And Colleges",
+    description:"Workshop in School And Colleges",
     align:"right",
   },
   {
     id:self.crypto.randomUUID(),
     img:Webinar,
-    descrption:"Seminar &Webinar",
+    description:"Seminar &Webinar",
     align:"left",
   },
   {
     id:self.crypto.randomUUID(),
     img:MiniProject,
-    descrption:"Mini Project for Final Year Students",
+    description:"Mini Project for Final Year Students",
     align:"right",
   },
   {
     id:self.crypto.randomUUID(),
     img:RDProject,
-    descrption:"R&D Project Support",
+    description:"R&D Project Support",
     align:"left",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: drone,
+    description: "Drone Assemble",
+    level: "Beginner to Advance",
+    language: "English",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: PCB,
+    description: "PCB Designing",
+    level: "Beginner to Advance",
+    language: "English",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Telemtry,
+    description: "Telemetry",
+    level: "Beginner to Advance",
+    language: "English",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Ics,
+    description: "Embeded System Testing",
+    level: "Beginner to Advance",
+    language: "English",
   }
 ]
 
