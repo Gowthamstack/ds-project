@@ -16,6 +16,8 @@ import profile_icon from "./profile_icon.png";
 import menu_icon_white from "./menu_icon_white.png"
 import location from "./location_icon.png";
 import mail_icon from "./mail_icon.png";
+import call_icon from "./call_icon.png";
+import ceo_icon from  "./ceo_icon.png";
 
 
 export const assests = {
@@ -31,7 +33,9 @@ export const assests = {
   profile_icon,
   menu_icon_white,
   location,
-  mail_icon
+  mail_icon,
+  call_icon,
+  ceo_icon
 };
 
 //home

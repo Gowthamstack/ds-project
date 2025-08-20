@@ -9,6 +9,10 @@ const Contact = () => {
         <h2>178 Gandhi Road Chennai 600042.</h2>
         <h2>Tamil Nadu.</h2>
         <div className='mail'>
+          <img className='mail_icon' src={assests.call_icon}/>
+          <h3>+91 9710893587</h3>
+        </div>
+        <div className='mail'>
           <img className='mail_icon' src={assests.mail_icon}/>
           <h3>sumathiap10@gmail.com</h3>
         </div>
